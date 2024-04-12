@@ -1,7 +1,7 @@
 # grok-docker
 
 ![license](https://img.shields.io/hexpm/l/plug.svg)
-[![docker](https://img.shields.io/docker/pulls/mayooot/nccl-tests-with-pytorch.svg)](https://hub.docker.com/r/mayooot/grok-docker)
+[![docker](https://img.shields.io/docker/pulls/mayooot/grok-docker.svg)](https://hub.docker.com/r/mayooot/grok-docker)
 
 Run [grok-1](https://github.com/xai-org/grok-1.git) with Docker.
 
