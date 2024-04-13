@@ -52,6 +52,14 @@ docker run -d -it \
 mayooot/grok-docker:v1
 ~~~
 
+# Build From Source
+
+~~~
+git clone https://github.com/mayooot/grok-docker.git
+cd grok-docker
+docker build -t mayooot/grok-docker:v1 .
+~~~
+
 # Train
 
 ~~~ 
@@ -116,9 +124,3 @@ Location: /root/miniconda3/lib/python3.10/site-packages
 Requires: ml-dtypes, numpy, scipy
 Required-by: chex, optax, orbax-checkpoint
 ~~~
-
-# Add some tools
-
-If you want to use sshd, jupyter-lab, tensorboard, use `mayooot/grok-docker:v1` as a base image and build.
-
-[Dockerfile](Dockerfile)
