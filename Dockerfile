@@ -8,7 +8,6 @@ WORKDIR /root
 
 COPY run.py .
 RUN git clone https://github.com/xai-org/grok-1.git
-COPY grok-1 grok-1
 RUN mv run.py grok-1/run.py
 
 RUN cd grok-1 && \
