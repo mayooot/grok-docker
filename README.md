@@ -60,7 +60,7 @@ cd grok-docker
 docker build -t mayooot/grok-docker:v1 .
 ~~~
 
-# Train
+# Inference
 
 ~~~ 
 docker exec -it grok-docker bash
